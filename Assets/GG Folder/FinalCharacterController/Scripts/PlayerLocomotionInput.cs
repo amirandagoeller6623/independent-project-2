@@ -2,14 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
 namespace GinjaGaming.FinalCharacterController
 {
-    public class PlayerLocomotionInput : MonoBehavior, PlayerControls.IPlayerLocomotionMapActions
+    public class PlayerLocomotionInput : MonoBehaviour, PlayerControls.IplayerLocomotionMapActions
     {
-        public PlayerControls PlayerControls { get; private set; }
-        public Vector2 MovementInput {get; private set; }
-        
+        public PlayerControls PlayerControls {get; private set; }
+        public Vector2 MovementInput { get; private set; }
         
         private void OnEnable()
         {
@@ -24,6 +22,7 @@ namespace GinjaGaming.FinalCharacterController
         {
             PlayerControls.PlayerLocomotionMap.Disable();
             PlayerControls.PlayerLocomotionMap.RemoveCallbacks(this);
+        
         }
         public void OnMovement(InputAction.CallbackContext context)
         {
