@@ -2533,8 +2533,8 @@ GameObject:
   - component: {fileID: 4650314539614245096}
   - component: {fileID: 4720056119593297830}
   - component: {fileID: 2859959517553281360}
-  - component: {fileID: 929525138630508829}
-  - component: {fileID: 8268025655793820361}
+  - component: {fileID: 6669676458370857025}
+  - component: {fileID: 6755583747386105541}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Untagged
@@ -2608,7 +2608,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &929525138630508829
+--- !u!114 &6669676458370857025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2620,7 +2620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d32ff3bf9aa4dbd89b20460001550f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8268025655793820361
+--- !u!114 &6755583747386105541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
